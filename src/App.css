@@ -1,0 +1,145 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    box-sizing: border-box;
+}
+i
+{
+    font-family: "Font Awesome 5 Free"; 
+}
+.todo-main-section
+{
+    height: 100vh;
+    width: 100%;
+    background: #00143d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-box-wrap
+{
+    background: #fff;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+}
+.image-wrap figure
+{
+    margin: 0;
+}
+.image-wrap figure img
+{
+    height:60px;
+    width: 60px;
+}
+figcaption
+{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 30px;
+}
+.additem-input
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+.additem-input i
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: #00143d;
+    transform: translateY(-50%);
+}
+.additem-input i:hover
+{
+    color: #d6c800;
+}
+.additem-input input
+{
+    font-size: 16px;
+    height: 45px;
+    border: 2px solid #00143d;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 100%;
+    
+}
+.show-item-wrap h3
+{
+    margin: 0;
+    font-size: 18px;
+}
+.show-item-wrap
+{
+    position: relative;
+    text-align: left;
+}
+.show-item-wrap .edit-del-btn
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%);
+}
+.show-item-wrap .edit-del-btn i
+{
+    margin-left: 10px;
+}
+.show-item-wrap i:hover
+{
+    color: #00143d;
+}
+.show-item-single
+{
+    background: #d6c800;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: all 300ms ease-in-out;
+}
+.show-item-single:hover
+{
+    background: #00d612;
+}
+.btn-wrap .btn
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00143d;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+}
+.show-item-single
+{
+    position: relative;
+}
+.btn-wrap button .hover-name
+{
+    display: none;
+}
+.btn-wrap button:hover{
+    background-color: #d6c800;
+}
+.btn-wrap button:hover .default-name
+{
+    display: none;
+}
+.btn-wrap button:hover .hover-name
+{
+    display: block;
+}
